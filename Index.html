@@ -1,1 +1,268 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Global Harvest Capital | Smart Investments, Global Growth</title>
+  <style>
+    /* Modern, Clean, Attractive Design */
+    :root {
+      --primary: #2e7d32;
+      --secondary: #1b5e20;
+      --accent: #4caf50;
+      --light: #f1f8e9;
+      --dark: #1a237e;
+      --text: #333;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {
+      background-color: #fff;
+      color: var(--text);
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      color: white;
+      padding: 2rem 5%;
+      text-align: center;
+    }
+    .logo {
+      font-size: 2.5rem;
+      font-weight: 800;
+      margin-bottom: 0.5rem;
+    }
+    .tagline {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+    nav {
+      background: var(--dark);
+      padding: 1rem 5%;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+    }
+    nav a {      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: var(--accent);
+    }
+    section {
+      padding: 4rem 5%;
+    }
+    .section-title {
+      text-align: center;
+      font-size: 2.2rem;
+      margin-bottom: 2.5rem;
+      color: var(--secondary);
+    }
+    .portfolios {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+    }
+    .portfolio-card {
+      background: var(--light);
+      border-radius: 12px;
+      padding: 1.5rem;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .portfolio-card:hover {
+      transform: translateY(-8px);
+    }
+    .portfolio-card h3 {
+      color: var(--primary);
+      margin-bottom: 0.8rem;
+    }
+    .reasons {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .reason {
+      background: #e8f5e9;
+      padding: 1.2rem;
+      border-left: 4px solid var(--accent);
+      border-radius: 0 8px 8px 0;
+    }
+    .testimonials {
+      background: var(--light);
+      border-radius: 16px;      padding: 2rem;
+      text-align: center;
+    }
+    .investor-count {
+      font-size: 1.4rem;
+      margin: 1.5rem 0;
+      color: var(--secondary);
+      font-weight: bold;
+    }
+    .contact {
+      background: var(--dark);
+      color: white;
+      text-align: center;
+      padding: 3rem 5%;
+    }
+    .contact a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: bold;
+      margin: 0 10px;
+    }
+    .upload-section {
+      text-align: center;
+      margin: 2rem 0;
+    }
+    .upload-btn {
+      background: var(--primary);
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 1rem;
+      margin-top: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background: #333;
+      color: white;
+      font-size: 0.9rem;
+    }
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        gap: 0.8rem;
+      }
+    }
+  </style>
+</head><body>
+
+  <header>
+    <div class="logo">GLOBAL HARVEST CAPITAL</div>
+    <div class="tagline">Diversified Investments. Global Returns.</div>
+  </header>
+
+  <nav>
+    <a href="#portfolios">Portfolios</a>
+    <a href="#why">Why Invest With Us</a>
+    <a href="#testimonials">Success Stories</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="portfolios">
+    <h2 class="section-title">Our Investment Portfolios</h2>
+    <div class="portfolios">
+      <!-- Portfolio 1 -->
+      <div class="portfolio-card">
+        <h3>🌱 Agriculture</h3>
+        <p>Invest in sustainable farming, agri-tech, and food security across emerging markets. High yield with ESG impact.</p>
+      </div>
+      <!-- Portfolio 2 -->
+      <div class="portfolio-card">
+        <h3>💻 Technology</h3>
+        <p>Back cutting-edge startups in AI, SaaS, and green tech. Scalable growth with global potential.</p>
+      </div>
+      <!-- Portfolio 3 -->
+      <div class="portfolio-card">
+        <h3>💰 Cryptocurrency</h3>
+        <p>Diversified crypto basket: BTC, ETH, DeFi, and Web3 projects with risk-managed exposure.</p>
+      </div>
+      <!-- Portfolio 4 -->
+      <div class="portfolio-card">
+        <h3>🏘️ Real Estate</h3>
+        <p>Residential & commercial properties in high-growth cities. Rental income + capital appreciation.</p>
+      </div>
+      <!-- Portfolio 5 -->
+      <div class="portfolio-card">
+        <h3>🔋 Renewable Energy</h3>
+        <p>Solar, wind, and hydro projects delivering stable returns and carbon credits.</p>
+      </div>
+      <!-- Add more as needed up to 10 -->
+      <div class="portfolio-card">
+        <h3>🏥 Healthcare</h3>
+        <p>Biotech, telemedicine, and medical infrastructure in aging economies.</p>
+      </div>
+      <div class="portfolio-card">
+        <h3>✈️ Aviation & Logistics</h3>
+        <p>Post-pandemic recovery plays in global supply chains and air cargo.</p>      </div>
+      <div class="portfolio-card">
+        <h3>🎓 Education Tech</h3>
+        <p>Digital learning platforms transforming global education access.</p>
+      </div>
+      <div class="portfolio-card">
+        <h3>🌊 Blue Economy</h3>
+        <p>Ocean-based industries: sustainable fishing, marine biotech, and clean shipping.</p>
+      </div>
+      <div class="portfolio-card">
+        <h3>🌍 Emerging Markets</h3>
+        <p>High-growth equities and bonds in Africa, Southeast Asia, and Latin America.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="why">
+    <h2 class="section-title">10 Reasons to Invest With Us</h2>
+    <div class="reasons">
+      <div class="reason">1. Diversified portfolio options across 10 high-growth sectors</div>
+      <div class="reason">2. Transparent fee structure – no hidden charges</div>
+      <div class="reason">3. AI-driven risk assessment & portfolio optimization</div>
+      <div class="reason">4. Monthly profit distributions</div>
+      <div class="reason">5. Dedicated account manager for every investor</div>
+      <div class="reason">6. ESG-compliant investments with social impact</div>
+      <div class="reason">7. Minimum investment as low as $500</div>
+      <div class="reason">8. Real-time dashboard to track performance</div>
+      <div class="reason">9. Regulated and audited annually</div>
+      <div class="reason">10. 92% client retention rate over 3 years</div>
+    </div>
+  </section>
+
+  <section id="testimonials">
+    <h2 class="section-title">Join 500+ Successful Investors</h2>
+    <div class="testimonials">
+      <p>"I invested $2,000 in the AgriTech portfolio and earned 22% ROI in 8 months. Global Harvest Capital changed my financial future!"</p>
+      <p><strong>— Michael T., California</strong></p>
+      <p>"The crypto portfolio is managed so wisely. They hedge volatility better than any fund I’ve seen."</p>
+      <p><strong>— Aisha R., Dubai</strong></p>
+      <div class="investor-count">✅ Over 500 investors | $4.2M+ distributed in profits</div>
+      
+      <div class="upload-section">
+        <p>Upload your investment registration document:</p>
+        <input type="file" id="investment-upload" accept="image/*" style="display: none;">
+        <button class="upload-btn" onclick="document.getElementById('investment-upload').click()">Choose Image</button>
+        <p style="font-size: 0.9rem; margin-top: 8px; color: #555;">(Note: For demo only. Real uploads require backend.)</p>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="contact">
+    <h2 class="section-title">Get in Touch</h2>
+    <p>📞 Phone: <a href="tel:+13232095965">+1 (323) 209-5965</a></p>
+    <p>💬 WhatsApp: <a href="https://wa.me/13474332160">+1 (347) 433-2160</a></p>
+    <p>Email: info@globalharvestcapital.com</p>
+  </section>
+
+  <footer>
+    &copy; 2026 Global Harvest Capital. All rights reserved.
+  </footer>
+
+  <script>
+    // Simple file upload preview (frontend only)
+    document.getElementById('investment-upload').addEventListener('change', function(e) {
+      if (e.target.files.length) {
+        alert('File selected: ' + e.target.files[0].name + '\n\n⚠️ Note: This is a demo. In production, this would connect to a secure server.');
+      }
+    });
+  </script>
+
+</body>
+</html>
